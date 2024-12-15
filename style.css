@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    font-family: "Poppins", serif;
+    background-color: yellowgreen;
+}
+
+.image-gallery__border {
+
+    border: 5px dotted red;
+}
+.image-gallery__title {
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-gallery__container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-gallery__images {
+
+    flex-basis: 25%;
+    margin-top: 20px;
+
+}
+.image-gallery__images img {
+
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.image-gallery__container h2 {
+
+    color: white;
+    margin-left: 70px;
+}
